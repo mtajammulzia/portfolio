@@ -1,0 +1,53 @@
+.details {
+  padding: 4rem 10rem;
+  width: 100vw;
+  background: var(--background-color);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  color: var(--primary-text-color);
+  font-size: 4rem;
+}
+
+.line-break-details {
+  margin: 2rem 0;
+  background: var(--primary-text-color);
+  height: 2px;
+  width: 80vw;
+}
+
+.tech-stack-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-column-gap: 8rem;
+  grid-row-gap: 1rem;
+}
+
+.stack {
+  padding: 1rem 3rem;
+  color: var(--primary-text-color);
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.stack h2 {
+  margin-bottom: 1rem;
+}
+
+.technology {
+  color: var(--secondary-text-color);
+  font-size: 1.6rem;
+  width: 80%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.technology div {
+  margin-right: 1.1rem;
+  font-size: 2rem;
+}

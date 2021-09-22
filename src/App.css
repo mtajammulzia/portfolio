@@ -1,38 +1,18 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+:root {
+  --background-color: rgb(245, 247, 250);
+  --background-color-dark: rgb(237, 239, 242);
+  --primary-text-color: rgb(148, 102, 234);
+  --secondary-text-color: rgb(255, 117, 153);
+  --img-background-color: rgb(224, 224, 224);
+  --navbar-text-color: rgb(190, 190, 190);
+  --navbar-text-color-dark: rgb(130, 130, 130);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+* {
+  margin: 0;
+  padding: 9;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
 }

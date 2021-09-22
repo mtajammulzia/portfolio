@@ -1,0 +1,54 @@
+.home-page {
+  margin-top: 8vh;
+  padding: 2rem 10rem;
+  height: 92vh;
+  width: 100vw;
+  background: var(--background-color);
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-layout {
+  margin-right: -150px;
+  z-index: 3;
+}
+
+.text-layout h1 {
+  color: var(--primary-text-color);
+  font-size: 6rem;
+  margin-bottom: 3rem;
+}
+
+.text-layout h4 {
+  color: var(--secondary-text-color);
+  font-size: 3rem;
+}
+
+.img-background {
+  width: 100%;
+  border-radius: 35px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: var(--img-background-color);
+}
+
+.img {
+  width: 65%;
+  height: auto%;
+}
+
+#titleLine1::after {
+  content: "\a";
+  white-space: pre;
+}
+
+#descLine1::after {
+  content: "\a";
+  white-space: pre;
+}
+
+#descLine2::after {
+  content: "\a";
+  white-space: pre;
+}
