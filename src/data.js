@@ -1,37 +1,38 @@
 import * as FaIcons from "react-icons/fa";
 import * as SiIcons from "react-icons/si";
 import * as AiIcons from "react-icons/ai";
+import * as DiIcons from "react-icons/di";
 
 export const navigationData = [
   {
     id: 1,
     name: "Home",
     path: "scroll-to-home",
-    offSet: -55,
+    offSet: -53,
   },
   {
     id: 2,
     name: "Tech Stack",
     path: "scroll-to-techstack",
-    offSet: 0,
+    offSet: -53,
   },
   {
     id: 3,
     name: "Projects",
     path: "scroll-to-projects",
-    offSet: -200,
+    offSet: -155,
   },
-  {
-    id: 4,
-    name: "Recommendations",
-    path: "scroll-to-recommendations",
-    offSet: 0,
-  },
+  // {
+  //   id: 4,
+  //   name: "Recommendations",
+  //   path: "scroll-to-recommendations",
+  //   offSet: 0,
+  // },
   {
     id: 5,
     name: "Contact",
     path: "scroll-to-contact",
-    offSet: -50,
+    offSet: -53,
   },
 ];
 
@@ -48,21 +49,21 @@ export const projectsData = [
     name: "Navigation",
     description:
       "Responsive navbar and sidebar navigation with animations. Used react hooks, props, react-router, react-icons and CSS",
-    sourceCodeUrl: "https://github.com/mtajammulzia/portfolio",
+    sourceCodeUrl: "https://github.com/mtajammulzia/responsive-navbar-sidebar",
   },
   {
     id: 3,
     name: "A* Search Algorithm",
     description:
       "Visualization of A* search algorithm. Using p5 a JavaScript library for visual graphics",
-    sourceCodeUrl: "https://github.com/mtajammulzia/portfolio",
+    sourceCodeUrl: "https://github.com/mtajammulzia/A-Star-In-p5",
   },
   {
     id: 4,
     name: "Prize Bond Searcher",
     description:
       "A prize bond searcher. Used Java File.io to look for prize bond numbers present in one file and compare it with other. File can be fed with garbage data, as long as there are actual bond number in file it will work!",
-    sourceCodeUrl: "https://github.com/mtajammulzia/portfolio",
+    sourceCodeUrl: "https://github.com/mtajammulzia/prizebondsearcher",
   },
   {
     id: 5,
@@ -168,9 +169,35 @@ export const techStack = [
     technologies: [
       {
         id: 1,
-        name: "MySQL",
+        name: "MongoDB",
         cName: "technology",
-        logo: <SiIcons.SiMysql />,
+        logo: <SiIcons.SiMongodb />,
+      },
+      {
+        id: 2,
+        name: "SQL",
+        cName: "technology",
+        logo: <AiIcons.AiOutlineConsoleSql />,
+      },
+    ],
+  },
+  {
+    id: 4,
+    stackName: "Tools",
+    logo: <FaIcons.FaToolbox />,
+    cName: "stack",
+    technologies: [
+      {
+        id: 1,
+        name: "Git",
+        cName: "technology",
+        logo: <DiIcons.DiGitBranch />,
+      },
+      {
+        id: 2,
+        name: "GitHub",
+        cName: "technology",
+        logo: <FaIcons.FaGithub />,
       },
     ],
   },

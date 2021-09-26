@@ -10,7 +10,8 @@ function Intro() {
           <span id="titleLine1">Hello</span>
           <span>I'm Tajammul</span>
         </h1>
-        <h4>Software Engineer, Comics and Travel Enthusiast.</h4>
+        <h4>Software Engineer, Comics</h4>
+        <h4>and Travel Enthusiast.</h4>
         <h4>Welcome to my Portfolio!</h4>
       </div>
       <div className="img-background">

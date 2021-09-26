@@ -1,14 +1,15 @@
 .home-page {
   margin-top: 8vh;
-  padding: 2rem 10rem;
+  padding: 40px 180px;
   height: 92vh;
   width: 100vw;
   background: var(--background-color);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .text-layout {
+  width: 100%;
   margin-right: -150px;
   z-index: 3;
 }
@@ -25,7 +26,7 @@
 }
 
 .img-background {
-  width: 100%;
+  width: 860px;
   border-radius: 35px;
   display: flex;
   justify-content: flex-end;
@@ -34,8 +35,8 @@
 }
 
 .img {
-  width: 65%;
-  height: auto%;
+  width: 360px;
+  height: 100%;
 }
 
 #titleLine1::after {
@@ -43,12 +44,108 @@
   white-space: pre;
 }
 
-#descLine1::after {
-  content: "\a";
-  white-space: pre;
+@media only screen and (max-width: 1250px) {
+  .home-page {
+    padding: 40px 100px;
+  }
 }
 
-#descLine2::after {
-  content: "\a";
-  white-space: pre;
+@media only screen and (max-width: 1107px) {
+  .home-page {
+    padding: 50px 200px;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .text-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-right: 0px;
+  }
+
+  .text-layout h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .text-layout h4 {
+    font-size: 2.5rem;
+  }
+
+  .img-background {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 855px) {
+  .home-page {
+    padding: 30px 160px;
+  }
+
+  .text-layout h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .text-layout h4 {
+    font-size: 2.5rem;
+  }
+
+  .img-background {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .img {
+    width: 300px;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 772px) {
+  .home-page {
+    padding: 30px 130px;
+  }
+
+  .text-layout h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .text-layout h4 {
+    font-size: 2rem;
+  }
+
+  .img-background {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .img {
+    width: 300px;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 624px) {
+  .home-page {
+    padding: 30px 60px;
+  }
+
+  .text-layout h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .text-layout h4 {
+    font-size: 1.3rem;
+  }
+
+  .img {
+    width: 260px;
+  }
 }

@@ -11,10 +11,6 @@
   z-index: 10000;
 }
 
-.navbar:hover {
-  /* background: var(--background-color-dark); */
-}
-
 .home-title-logo {
   height: 100%;
   font-size: 2rem;
@@ -67,4 +63,75 @@
   align-items: center;
   color: var(--navbar-text-color);
   text-decoration: none;
+}
+
+.sidebar-toggle {
+  width: 40vw;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.sidebar-toggle-logo {
+  color: var(--navbar-text-color);
+  text-decoration: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.sidebar {
+  background: var(--background-color);
+  height: 92vh;
+  width: 16rem;
+  position: fixed;
+  top: 8vh;
+  left: -100%;
+  transition: 0.3s all ease-in-out;
+  z-index: 10;
+}
+
+.sidebar.active {
+  left: 0;
+  transition: 0.5s all ease-out;
+}
+
+.sidebar-items {
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  flex-direction: column;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s all ease-out;
+}
+
+.sidebar-item {
+  list-style: none;
+  width: 100%;
+  height: 70px;
+}
+
+.sidebar-item a {
+  text-decoration: none;
+  color: var(--navbar-text-color);
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s all ease-out;
+}
+
+.sidebar-item a:hover {
+  background: var(--primary-text-color);
+}
+
+@media only screen and (max-width: 900px) {
+  .home-title-logo:hover {
+    transform: none;
+    background: none;
+    color: var(--navbar-text-color);
+  }
 }

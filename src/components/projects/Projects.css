@@ -1,42 +1,44 @@
 .project-section {
-  padding: 4rem 10rem;
+  padding: 0px 180px 60px 180px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
   background: var(--background-color);
+  height: 92vh;
 }
 
 .line-break-project {
-  margin: 2rem 0;
+  margin: 10px 0 20px 0;
   background: var(--primary-text-color);
   height: 2px;
-  width: 80vw;
+  width: 75vw;
 }
 
 .page-title {
   color: var(--primary-text-color);
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .projects {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  grid-gap: 2rem;
+  grid-gap: 20px;
   justify-content: center;
   align-items: center;
 }
 
 .project {
   padding: 1rem 1.5rem;
-  width: 22rem;
-  height: 20rem;
+  width: 360px;
+  height: 240px;
   background: var(--img-background-color);
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
+  border-radius: 16px;
   transition: 0.3s all ease-in-out;
 }
 
@@ -46,20 +48,18 @@
 
 .project-title {
   color: var(--primary-text-color);
-  font-size: 2.2rem;
+  font-size: 30px;
 }
 
 .project-description {
-  margin: 1rem 0;
   color: var(--navbar-text-color-dark);
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .project-code {
-  padding: 0.7rem 1.5rem;
+  padding: 10px 26px;
   border-radius: 6px;
   background: var(--secondary-text-color);
-  font-size: 1rem;
   color: white;
   text-decoration: none;
   transition: 0.3s all ease-in-out;
@@ -71,4 +71,86 @@
   background: var(--primary-text-color);
   color: white;
   transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1250px) {
+  .project-section {
+    padding: 30px 150px;
+  }
+}
+
+@media only screen and (max-width: 1107px) {
+  .project-section {
+    padding: 30px 150px;
+    height: auto;
+  }
+  .projects {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media only screen and (max-width: 855px) {
+  .project-section {
+    padding: 30px 120px;
+  }
+}
+
+@media only screen and (max-width: 772px) {
+  .project-section {
+    padding: 20px 80px;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .project {
+    padding: 0.5rem 1rem;
+    width: 300px;
+    height: 200px;
+  }
+
+  .project-title {
+    font-size: 24px;
+  }
+
+  .project-description {
+    font-size: 14px;
+  }
+
+  .project-code {
+    padding: 4px 16px;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 624px) {
+  .project-section {
+    padding: 20px 80px;
+    height: auto;
+  }
+
+  .projects {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .project {
+    padding: 0.5rem 1rem;
+    width: 320px;
+    height: auto;
+  }
+
+  .project-title {
+    font-size: 30px;
+  }
+
+  .project-description {
+    font-size: 16px;
+    margin: 16px 0;
+  }
+
+  .project-code {
+    padding: 10px 26px;
+    font-size: 1.5rem;
+  }
 }
