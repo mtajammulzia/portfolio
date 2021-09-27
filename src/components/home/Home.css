@@ -133,7 +133,7 @@
 
 @media only screen and (max-width: 624px) {
   .home-page {
-    padding: 30px 60px;
+    padding: 30px 40px;
   }
 
   .text-layout h1 {
@@ -142,7 +142,7 @@
   }
 
   .text-layout h4 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .img {

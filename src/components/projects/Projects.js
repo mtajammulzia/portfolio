@@ -5,7 +5,7 @@ import "./Projects.css";
 
 function Projects() {
   return (
-    <section className="project-section">
+    <section className="project_section">
       <h1 className="page-title">Projects</h1>
       <div className="line-break-project"></div>
       <section className="projects">

@@ -1,5 +1,5 @@
-.project-section {
-  padding: 0px 180px 60px 180px;
+.project_section {
+  padding: 15px 180px 15px 180px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,9 +30,9 @@
 }
 
 .project {
-  padding: 1rem 1.5rem;
+  padding: 8px 24px;
   width: 360px;
-  height: 240px;
+  height: 230px;
   background: var(--img-background-color);
   display: flex;
   align-items: center;
@@ -80,8 +80,8 @@
 }
 
 @media only screen and (max-width: 1107px) {
-  .project-section {
-    padding: 30px 150px;
+  .project_section {
+    padding: 15px 150px 15px 150px;
     height: auto;
   }
   .projects {
@@ -90,22 +90,19 @@
 }
 
 @media only screen and (max-width: 855px) {
-  .project-section {
+  .project_section {
     padding: 30px 120px;
+    height: auto;
   }
 }
 
 @media only screen and (max-width: 772px) {
-  .project-section {
+  .project_section {
     padding: 20px 80px;
   }
 
-  .projects {
-    grid-template-columns: repeat(2, auto);
-  }
-
   .project {
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     width: 300px;
     height: 200px;
   }
@@ -126,7 +123,7 @@
 
 @media only screen and (max-width: 624px) {
   .project-section {
-    padding: 20px 80px;
+    padding: 20px 30px;
     height: auto;
   }
 
@@ -135,7 +132,6 @@
   }
 
   .project {
-    padding: 0.5rem 1rem;
     width: 320px;
     height: auto;
   }

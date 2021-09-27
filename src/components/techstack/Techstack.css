@@ -112,7 +112,7 @@
   }
 
   .tech-stack-container {
-    grid-template-columns: repeat(1, auto);
+    grid-template-columns: repeat(2, auto);
   }
 
   .tech-heading {
@@ -120,17 +120,17 @@
   }
 
   .stack {
-    width: 300px;
+    width: 260px;
   }
 }
 
 @media only screen and (max-width: 624px) {
   .techstack-page {
-    padding: 30px 60px;
+    padding: 30px 30px;
   }
 
   .techstack-page-title {
-    font-size: 2.1rem;
+    font-size: 2.2rem;
   }
 
   .tech-stack-container {
