@@ -39,7 +39,7 @@ export const navigationData = [
 export const projectsData = [
   {
     id: 1,
-    name: "Protfolio",
+    name: "Portfolio",
     description:
       "Responsive portfolio design with ReactJS. Used react hooks, props, react-router, react-icons, react-scroll and CSS.",
     sourceCodeUrl: "https://github.com/mtajammulzia/portfolio",
@@ -149,12 +149,24 @@ export const techStack = [
       },
       {
         id: 2,
-        name: "Bootstrap",
+        name: "NodeJS",
         cName: "technology",
-        logo: <SiIcons.SiBootstrap />,
+        logo: <FaIcons.FaNodeJs />,
       },
       {
         id: 3,
+        name: "TypeScript",
+        cName: "technology",
+        logo: <SiIcons.SiTypescript />,
+      },
+      // {
+      //   id: 2,
+      //   name: "Bootstrap",
+      //   cName: "technology",
+      //   logo: <SiIcons.SiBootstrap />,
+      // },
+      {
+        id: 4,
         name: "SpringBoot",
         cName: "technology",
         logo: <SiIcons.SiSpring />,
