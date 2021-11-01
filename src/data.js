@@ -46,31 +46,31 @@ export const projectsData = [
   },
   {
     id: 2,
+    name: "Pacman",
+    description:
+      "Complete clone of Pacman game with implementaion of artificial intelligence for ghosts to chase down pacman.",
+    sourceCodeUrl: "https://github.com/mtajammulzia/Pacman-Game",
+  },
+  {
+    id: 3,
     name: "Navigation",
     description:
       "Responsive navbar and sidebar navigation with animations. Used react hooks, props, react-router, react-icons and CSS",
     sourceCodeUrl: "https://github.com/mtajammulzia/responsive-navbar-sidebar",
   },
   {
-    id: 3,
+    id: 4,
     name: "A* Search Algorithm",
     description:
       "Visualization of A* search algorithm. Using p5 a JavaScript library for visual graphics",
     sourceCodeUrl: "https://github.com/mtajammulzia/A-Star-In-p5",
   },
   {
-    id: 4,
+    id: 5,
     name: "Prize Bond Searcher",
     description:
       "A prize bond searcher. Used Java File.io to look for prize bond numbers present in one file and compare it with other. File can be fed with garbage data, as long as there are actual bond number in file it will work!",
     sourceCodeUrl: "https://github.com/mtajammulzia/prizebondsearcher",
-  },
-  {
-    id: 5,
-    name: "Piano Tiles Bot",
-    description:
-      'I made a clone of the game "Piano Tiles" with Javascript and then made a bot in Python to play it. The bot could locate tiles on the screen and then click them. I used pixel matching technique to achieve this task.',
-    sourceCodeUrl: "https://github.com/mtajammulzia/portfolio",
   },
   {
     id: 6,
