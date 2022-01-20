@@ -10,7 +10,7 @@
 
 .text-layout {
   width: 100%;
-  margin-right: -150px;
+  margin-right: -180px;
   z-index: 3;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .img {
-  width: 360px;
+  width: 400px;
   height: 100%;
 }
 
